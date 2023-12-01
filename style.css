@@ -1,0 +1,130 @@
+*{margin:auto;padding: 0;}
+a {text-decoration: none;color:white;
+}
+h1{color: white;}
+
+nav{
+   background-color: rgb(5, 5, 49);
+   display:flex; /* 
+   flex-direction: row;
+   align-items:flex-start;  */
+   justify-content: space-between;
+   width: 75%;
+}
+
+
+ul{ width: 30%;
+   min-height: 4rem;
+   margin-left: 0;
+
+   display: flex;
+   justify-content: space-between;
+   list-style: none;}
+
+header{
+   background-color: rgb(20,138, 56);  
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content: center;
+   width: 75%;
+   min-height: 10rem;
+   color: white;
+   }
+
+
+   
+header img{width: 10%;}
+
+header div{color: white;}
+.article2{
+   background-color:rgb(74, 141, 141); 
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction:column;
+   align-items:center;
+   justify-content:center;
+   width: 75%;
+   min-height: 25rem;}
+.article2 p {
+   column-count:2; 
+   width: 40%;
+   color: white;}
+.article2 h2 {color: white;} 
+
+.article1>div {
+   gap: 10px;
+   width: 30%;
+   
+}
+
+.article1 {
+   display: flex;
+   flex-direction: column;
+   align-items:center;
+   justify-content: center;
+   width: 75%;
+   min-height: 25rem;}
+
+div img {
+   width:40%;
+   border-radius: 10px;
+   
+}   
+.article3 {
+  width: 75%;
+  color: blue;
+  display: flex;
+}
+.article3 form {
+   display: flex;
+flex-wrap: wrap;
+justify-content: left;}
+
+footer{display: flex;
+   width: 100%;
+   flex-direction:column;
+   align-items: center;
+   justify-content: center;
+   background-color:grey;width: 75%;}
+div footer {
+   justify-items:center;}
+   button{
+      color: rgb(20,138, 56);
+
+   }
+
+input,textarea{ 
+   border:none;
+   border-bottom: 10% solid grey;
+   width: 110%;}
+
+
+  div img {width: 70%;}
+ .article1 div { width: 50%;
+   display:flex;
+   justify-content:space-around;
+   gap: 10px;
+}
+h3, h4{color:white;
+   text-decoration:solid;
+   display:flex;
+   justify-content:center;
+}
+footer{color: white;}
+section1 {    width: 100%;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-between;
+              }
+
+section2 {background-color: rgb(26, 25, 25);
+   width: 100%;display: flex;
+   justify-content: center;}
+
+
+
+
+
+   
+
